@@ -1,2 +1,6 @@
-# transformer-tech-debt-classifier
-Classification model of technical debt based on transformers. The objectives is to fine tune the model with the results obtained from with CatBoost and compere the results.
+# Transformer Technical Debt ClassifierThis project uses `transformers` models to classify sentences containing technical debt. It is accompanied by a `CatBoost` model for advanced prediction analysis.
+## Objectives
+- Fine-tuning a HuggingFace model
+- Prediction analysis with CatBoost
+- Performance comparison
+## Setup
