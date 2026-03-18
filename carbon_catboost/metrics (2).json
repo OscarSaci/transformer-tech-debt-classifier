@@ -1,0 +1,34 @@
+{
+  "model_name": "CatBoost Distilled",
+  "model_file": "/content/sample_data/catboost_td_distilled.cbm",
+  "test_samples": 200,
+  "inference_time_seconds": 0.03824973106384277,
+  "inference_time_ms_per_sample": 0.19124865531921387,
+  "throughput_samples_per_sec": 5228.794933647487,
+  "inference_emissions_kg": 2.443614826726471e-07,
+  "inference_emissions_g": 0.0002443614826726471,
+  "inference_emissions_mg_per_sample": 0.0012218074133632355,
+  "threshold": 0.5,
+  "accuracy": 0.815,
+  "precision": 0.8,
+  "recall": 0.84,
+  "f1_score": 0.8195121951219512,
+  "roc_auc": 0.8889999999999999,
+  "pr_auc": 0.9012483455270455,
+  "confusion_matrix": [
+    [
+      79,
+      21
+    ],
+    [
+      16,
+      84
+    ]
+  ],
+  "true_negatives": 79,
+  "false_positives": 21,
+  "false_negatives": 16,
+  "true_positives": 84,
+  "efficiency_f1_per_ms": 4.28506121391599,
+  "carbon_efficiency_f1_per_mg_co2": 670.7376188413382
+}
