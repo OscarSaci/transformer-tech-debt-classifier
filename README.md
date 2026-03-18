@@ -1,31 +1,26 @@
 # Efficient Tagging of Technical Debt in Issue Trackers
 
-Questo repository contiene il **replication package** relativo alla tesi di Laurea Magistrale, focalizzata sull'identificazione efficiente del **Technical Debt (TD)** negli issue tracker attraverso tecniche di **Knowledge Distillation**.
+This repository contains the **replication package** for a Master's thesis focused on the efficient identification of **Technical Debt (TD)** in issue trackers using **Knowledge Distillation** techniques.
 
 ---
 
-## 📌 Obiettivo del Progetto
+## 📌 Project Objective
 
-L'obiettivo del lavoro è valutare se un modello leggero basato su **CatBoost** sia in grado di eguagliare o superare le prestazioni di modelli basati su Transformer (in particolare DistilBERT) nel task di classificazione del Technical Debt.
+The goal of this work is to investigate whether a lightweight model based on **CatBoost** can match or outperform Transformer-based models (specifically DistilBERT) in the task of Technical Debt classification.
 
-Particolare attenzione è dedicata a:
-- efficienza computazionale
-- latenza in inferenza
-- sostenibilità ambientale
+Particular attention is given to:
+- computational efficiency
+- inference latency
+- environmental sustainability
 
 ---
 
-## 🛠️ Requisiti e Tecnologie
+## 🛠️ Requirements and Technologies
 
-Il progetto è sviluppato in **Python 3.10** e utilizza le seguenti librerie principali:
+The project is developed in **Python 3.10** and relies on the following main libraries:
 
-- **CatBoost** – Addestramento del modello student basato su gradient boosting  
-- **HuggingFace Transformers** – Implementazione del modello teacher (DistilBERT)  
-- **spaCy** – Preprocessing e normalizzazione del testo  
-- **CodeCarbon** – Monitoraggio del consumo energetico e delle emissioni di CO₂  
-- **SHAP** – Analisi di interpretabilità delle feature  
-
-Per installare le dipendenze:
-
-```bash
-pip install -r requirements.txt
+- **CatBoost** – Training of the student model based on gradient boosting  
+- **HuggingFace Transformers** – Implementation of the teacher model (DistilBERT)  
+- **spaCy** – Text preprocessing and linguistic normalization  
+- **CodeCarbon** – Monitoring energy consumption and CO₂ emissions  
+- **SHAP** – Feature interpretability analysis  
