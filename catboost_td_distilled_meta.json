@@ -1,0 +1,31 @@
+{
+  "input_file": "risultati_merged_mixed.csv",
+  "text_col": "orig_text",
+  "target_col": "logit_td",
+  "label_col": "label",
+  "num_cols": [],
+  "feature_cols": [
+    "orig_text"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "dataset_size": 20828,
+  "train_size": 16662,
+  "valid_size": 4166,
+  "rmse_train_logit": 1.6133418094619725,
+  "rmse_valid_logit": 2.488459497044936,
+  "training_time_seconds": 337.67312026023865,
+  "training_time_minutes": 5.627885337670644,
+  "co2_emissions_kg": 0.0013551660936855473,
+  "model_iterations": 2453,
+  "model_file": "catboost_td_distilled.cbm",
+  "roc_auc_train": 0.9813448604271185,
+  "roc_auc_valid": 0.9386836297845613,
+  "pr_auc_train": 0.9821212334468843,
+  "pr_auc_valid": 0.9427435873834589,
+  "best_threshold": 0.394784236285393,
+  "accuracy": 0.8626980316850696,
+  "precision": 0.868563021088769,
+  "recall": 0.8534939759036144,
+  "f1_score": 0.8609625668449198
+}
