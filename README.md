@@ -117,8 +117,8 @@ All files are organized in the root directory for simplicity. Below is a descrip
 - `Model-performance.ipynb`  
   Compares CatBoost and Transformer models in terms of classification performance.
 
-- `Stats.ipynb`  
-  Computes statistical summaries and comparisons across the four CatBoost models.
+- `binary_classification_train_TD.ipynb`  
+  Computes inference comparisons between CatBoost and transformer.
 
 ---
 
