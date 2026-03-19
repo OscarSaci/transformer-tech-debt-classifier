@@ -15,6 +15,40 @@ Particular attention is given to:
 
 ---
 
+## 📊 Datasets
+
+This project relies on both **original datasets** and **processed datasets** published on Hugging Face.
+
+### 🔹 Original Dataset (Training Source)
+
+- [`karths/binary-10IQR-TD`](https://huggingface.co/datasets/karths/binary-10IQR-TD)  
+  Original dataset used as the primary source for training and experimentation.
+
+---
+
+### 🔹 Processed and Derived Datasets
+
+The following datasets have been **cleaned, enriched, or restructured** for the purposes of this thesis:
+
+- [`OscarSaci/train_catboost`](https://huggingface.co/datasets/OscarSaci/train_catboost)  
+  Processed dataset used for training the CatBoost model after preprocessing and feature engineering.
+
+---
+
+### 🔹 Evaluation and Test Datasets
+
+Additional datasets used for **evaluation and generalization testing**:
+
+- `ds_jira`  
+  Dataset derived from Jira issue trackers used to test model robustness on real-world data.
+
+- `2024_10IQR_technical_debt`  
+  Additional dataset used for validation and benchmarking.
+
+> ⚠️ Note: Some datasets are included in this repository or available via Hugging Face, depending on size and preprocessing requirements.
+
+---
+
 ## 🛠️ Requirements and Technologies
 
 The project is developed in **Python 3.10** and relies on the following main libraries:
